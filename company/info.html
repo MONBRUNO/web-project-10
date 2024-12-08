@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사 소개</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        .navbar {
+            background-color: #ffeb3b;
+        }
+
+        .navar-brand {
+            font-weight: bold;
+            color: #3b1e1e !important;
+        }
+
+        .nav-item > a:hover {
+            font-weight: bold;
+        }
+
+        .content-section {
+            padding: 50px 20px;
+        }
+
+        .content-section h2 {
+            color: #3b1e1e;
+            padding-bottom: 30px;
+        }
+
+        .content-section h1 {
+            padding-top: 10px;
+            font-size: 28px;
+        }
+
+        .maincontent {
+            margin-left: 50px;
+        }
+
+        .footer {
+            position: fixed;
+            background-color: #f7f7f7;
+            text-align: center;
+            padding: 15px 0;
+            width: 100%;
+            bottom: 0;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">Kakao</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="./info.html">회사 소개</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./history.html">연혁</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./services.html">서비스</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./technology.html">기술</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./esg.html">ESG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container content-section" id="about">
+            <h2 class="text-3xl font-semibold">회사 소개</h2>
+            <div class="container maincontent">
+                <div id="vision">
+                    <section>
+                        <hgroup>
+                            <h1 class="text-2xl font-bold">카카오의 비전과 목표</h1>
+                        </hgroup>
+                        <ul class="list-disc ml-4 mt-3">
+                            <li>카카오는 "모두가 연결되고 더 나은 세상을 만드는 것"을 목표로 하고 있습니다.</li>
+                            <li>핵심 가치는 혁신, 신뢰, 그리고 도전 정신입니다.</li>
+                            <li>주요 사업은 소셜 플랫폼, 디지털 콘텐츠, 핀테크, AI 기술, 모빌리티 서비스 등으로 구성되어 있습니다.</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div id="leader">
+                    <section>
+                        <hgroup>
+                            <h1 class="text-2xl font-bold">리더십 및 조직 구조</h1>
+                        </hgroup>
+                        <ul class="list-disc ml-4 mt-3">
+                            <li>카카오는 CEO를 중심으로 각 부문별 전문가로 구성된 운영진이 전략적으로 회사를 이끌어갑니다.</li>
+                            <li>그룹사로는 카카오게임즈, 카카오페이, 카카오모빌리티 등이 있습니다.</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div id="result">
+                    <section>
+                        <hgroup>
+                            <h1 class="text-2xl font-bold">주요 성과 및 수상 내역</h1>
+                        </hgroup>
+                        <ul class="list-disc ml-4 mt-3">
+                            <li>대한민국에서 가장 사랑받는 IT 브랜드 중 하나로 자리 잡음.</li>
+                            <li>글로벌 시장에서도 K-콘텐츠 및 기술을 확산하는 데 기여.</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Kakao Corp. All rights reserved.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+</body>
+
+</html>
